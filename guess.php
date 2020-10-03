@@ -4,8 +4,17 @@
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
+
+<pre>
+<?php
+      print_r($_GET)
+?>
+</pre>
+
 <p>
   <?php
+
+
     if ( ! isset($_GET['guess']) ) {
       echo("Missing guess parameter");
     } else if ( strlen($_GET['guess']) < 1 ) {
