@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Guessing Game for Md. Hasanul Bari</title>
+<title>Guessing Game for Hasanul Bari</title>
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
