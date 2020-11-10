@@ -5,6 +5,8 @@
 
     if(isset($_POST["guess"])){
 
+      $oldguess = $_POST['guess'] + 0;
+      
       if ( strlen($_POST["guess"]) < 1 ) {
         $message="Your guess is too short";
       }
